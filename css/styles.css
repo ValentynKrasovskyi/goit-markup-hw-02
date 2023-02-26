@@ -73,6 +73,7 @@ body {
 }
 /* Our Features */
 .features-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -98,6 +99,8 @@ body {
   background-color: var(--primary-white-color);
 }
 .team-title {
+  font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--tittle-text-color);
