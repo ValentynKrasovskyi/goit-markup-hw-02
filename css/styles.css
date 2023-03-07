@@ -3,6 +3,7 @@
   --tittle-text-color: #2e2f42;
   --primary-white-color: #ffffff;
   --primary-bcg-color: #f4f4fd;
+  --logo-color: #2e2f42;
 }
 body {
   color: var(--primary-text-color);
@@ -16,7 +17,7 @@ body {
 .link {
   text-decoration: none;
 }
-/* logo */
+/*?-----------------------LOGO-------------------------- */
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -26,9 +27,9 @@ body {
   color: #4d5ae5;
 }
 .logo-item {
-  color: var(--tittle-text-color);
+  color: var(--logo-color);
 }
-/* header */
+/*?-----------------------HEADER-------------------------- */
 .menu-link {
   line-height: 1.5;
   font-weight: 500;
@@ -47,7 +48,7 @@ body {
 .adress-link:hover {
   color: #404bbf;
 }
-/* Hero */
+/*?-----------------------HERO-------------------------- */
 .main-btn {
   font-size: 16px;
   line-height: 1.5;
@@ -71,7 +72,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
 }
-/* Our Features */
+/*?-----------------------OUR FEATURES-------------------------- */
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -84,14 +85,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-/* What are we doing */
+/*?-----------------------WHAT ARE WE DOING-------------------------- */
 .section-title {
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-/* Our team */
+/*?-----------------------OUR TEAM-------------------------- */
 .our-team {
   background-color: var(--primary-bcg-color);
 }
@@ -109,7 +110,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* footer */
+/*?-----------------------FOOTER-------------------------- */
 .footer {
   background-color: var(--tittle-text-color);
 }
@@ -119,9 +120,9 @@ body {
   color: #e7e9fc;
 }
 .logo-footer {
-  color: var(--primary-bcg-color);
+  color: var(--logo-color);
 }
-/* Portfolio */
+/*?-----------------------PORTFOLIO-------------------------- */
 .modal-btn {
   font-size: 16px;
   line-height: 1.5;
